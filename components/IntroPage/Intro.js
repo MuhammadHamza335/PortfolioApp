@@ -1,7 +1,6 @@
 "use client";
 import { Container, Row, Col } from "react-bootstrap";
 import homeIcon from "../../public/homeicons.svg";
-import "./intro.css";
 import TypeRole from "./TypeRole";
 import Image from "next/image";
 const Intro = () => {
