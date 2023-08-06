@@ -24,7 +24,7 @@ import PostMan from "../../public/Assests/postman.png";
 const Skills = () => {
   return (
     <Container fluid className="about-section">
-      <h1>
+      <h1 style={{ textAlign: "center" }}>
         <span className="primary-header">Tech Stack</span>
       </h1>
       <Container>

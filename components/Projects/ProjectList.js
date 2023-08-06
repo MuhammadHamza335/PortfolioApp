@@ -17,10 +17,13 @@ const ProjectList = () => {
   return (
     <Container fluid className="project-section">
       <Container>
-        <h1 className="project-heading">
-          <strong className="Fluorescent-Blue">Projects </strong>
-        </h1>
-        <p>Here are a few projects I've worked on recently.</p>
+        <div style={{ textAlign: "center" }}>
+          <h1 className="project-heading">
+            <strong className="Fluorescent-Blue">Projects </strong>
+          </h1>
+          <p>Here are a few projects I've worked on recently.</p>
+        </div>
+
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           {projects.map((project, index) => (
             <Col key={index} md={6} lg={4} className="project-card">
